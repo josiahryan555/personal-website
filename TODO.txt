@@ -7,4 +7,6 @@ Deliverables:
 
 TODOs:
 
-g
+Find Personal Websites
+    Description: Both add 3 or more personal websites from graphic designers or Programers to the folder entitled examples
+    Due: Sunday, Nov 27 at 11:59
