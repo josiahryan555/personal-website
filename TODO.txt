@@ -1,0 +1,9 @@
+Deliverables:
+2. Project proposal: Nov. 28, 23:59.
+3. Project walk-through: week of Dec. 5 - 9.
+4. Project presentation: your exam time.
+5. Project submission: code finished before 23:59, Dec. 14.
+
+
+TODOs:
+
