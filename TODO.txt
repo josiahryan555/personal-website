@@ -1,13 +1,31 @@
 Deliverables:
-2. Project proposal: Nov. 28, 23:59.
+2. Project proposal: Nov. 28, 23:59. DONE
 3. Project design: Nov. 3, midnight.
 4. Project walk-through: week of Dec. 5 - 9.
 5. Project presentation: your exam time.
 6. Project submission: code finished before 23:59, Dec. 14.
 
-
 TODOs:
 
-Find Personal Websites
-    Description: Both add 3 or more personal websites from graphic designers or Programers to the folder entitled examples
-    Due: Sunday, Nov 27 at 11:59
+Person 1: Clare Schellenberg
+Person 2:  Germaine Hounakey
+Person 3: Josiah Ryan
+
+Deliverable 1 (due by beginning of walkthrough week: Dec 5 at 11:59pm)
+·       Make Angular project (person 3)
+·       Make basic landing page (person 3)
+·       Make basic portfolio page (person 3)
+·       Add routing/navigation between pages (Person 2)
+·       Make Header (Person 2)
+·       Make basic about and contact pages (person 3)
+·       Make project card for portfolio page (Person 1)
+·       Make project-page component to display project info (person 1)
+·       Link project card to project-page (Person 2)
+·       Make contact form component and add to contact page (anyone who has time)
+Second Deliverable (due: Dec 11 11:59pm)
+·       Make firebase (Person 3)
+·       Link firebase to contact component (Person 3)
+·       Set-up email functionality (Person 2)
+·       Finalize welcome page (Person 1)
+·       Finalize portfolio page (Person 1)
+·       Finalize contact and about me pages (Person 1)
