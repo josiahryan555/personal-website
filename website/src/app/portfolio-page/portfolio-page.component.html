@@ -1,1 +1,6 @@
 <p>portfolio-page works!</p>
+
+<span *ngFor="let portfolioCard of portfolioCardList">
+  <app-portfolio-card title={{portfolioCard.title}} description={{portfolioCard.description}}
+    image={{portfolioCard.image}}></app-portfolio-card>
+</span>
