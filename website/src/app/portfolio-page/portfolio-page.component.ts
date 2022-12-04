@@ -27,6 +27,16 @@ export class PortfolioPageComponent implements OnInit {
       title: 'Audio Production',
       description: 'I was involved in all phases of recording this album from microphone setup, to recording, to editing.',
       image: "https://www.clker.com/cliparts/R/l/l/L/T/2/yellow-square-hi.png",
+    },
+    {
+      title: 'Audio Production',
+      description: 'I was involved in all phases of recording this album from microphone setup, to recording, to editing.',
+      image: "https://www.clker.com/cliparts/R/l/l/L/T/2/yellow-square-hi.png",
+    },
+    {
+      title: 'Audio Production',
+      description: 'I was involved in all phases of recording this album from microphone setup, to recording, to editing.',
+      image: "https://www.clker.com/cliparts/R/l/l/L/T/2/yellow-square-hi.png",
     }
   ]
 
