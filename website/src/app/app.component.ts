@@ -1,6 +1,4 @@
-import { Component } from '@angular/core';
-// import { NgOptimizedImage } from '@angular/common'
-// import './codePic.png';
+//import { Component } from '@angular/core'; from Josiah's code?  not needed anymore?
 
 @Component({
   selector: 'app-root',
