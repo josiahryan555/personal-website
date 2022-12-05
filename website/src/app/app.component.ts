@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// import { NgOptimizedImage } from '@angular/common'
+// import './codePic.png';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website';
+  backgroundImg = "../assests/codePic.png";
 }
