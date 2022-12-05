@@ -16,6 +16,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { HeaderComponent } from './components/header/header.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     PortfolioCardComponent,
     ProjInfoPageComponent,
     ContactFormComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
