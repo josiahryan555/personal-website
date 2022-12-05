@@ -1,0 +1,69 @@
+* {
+  border: 0px solid black;
+}
+
+
+.page {
+  display: grid;
+}
+
+#card {
+  border: 5px solid lightgray;
+  display: grid;
+  min-width: 150px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  grid-auto-flow: column;
+  align-items: center;
+  gap: 1vw;
+  margin-left: 2.3vw;
+  margin-bottom: 1vw;
+  //border-radius: 5px;
+}
+
+#image-box {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 12vw;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+#image {
+  display: grid;
+  max-width: 10vw;
+  border-radius: 5px;
+  margin-left: 5%;
+}
+
+#title {
+  font-size: 1.75vw;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 30vw;
+  margin-right: 5%;
+}
+
+#description {
+  font-size: 1vw;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 30vw;
+  margin-right: 5%;
+}
+
+#learn-more-button {
+  font-size: 1vw;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  max-width: 30vw;
+  margin-right: 5%;
+}

@@ -1,0 +1,38 @@
+.header {
+  background-color: lightgrey;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 3vw;
+  text-align: center;
+}
+
+.description {
+  font-size: 5vw;
+  max-width: 40vw;
+  line-height: 5vw;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.textbox {
+  margin-bottom: 15px;
+  width: 75%;
+}
+
+.form {
+  width: 40vw;
+  border: 5px solid lightgray;
+  padding: 2vw;
+}
+
+#message-box {
+  height: 200px;
+  width: 40vw;
+  max-width: 100%;
+  min-width: 75%;
+}
