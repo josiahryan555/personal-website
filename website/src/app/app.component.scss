@@ -1,0 +1,18 @@
+#sect1 {
+    height: 900px;
+    width: 1500px;
+    color: #fff;
+    background-image: url("../assets/imgs/butterflyImg.jpeg");
+    // destroy padding/ margins
+}
+
+#welcome-phrase {
+    background-color: #fff;
+    padding: 5vmin;
+    margin-top: 40vh;
+    // padding-top: 200px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 7vmin;
+}
