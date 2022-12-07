@@ -10,6 +10,7 @@ export class PortfolioCardComponent implements OnInit {
   @Input() description: string = "";
   @Input() subtitle: string = "";
   @Input() image: string = "";
+  @Input() content: string = "";
 
 
   constructor() { }
