@@ -22,10 +22,23 @@ Deliverable 1 (due by beginning of walkthrough week: Dec 5 at 11:59pm)
 ·       Make project-page component to display project info (person 1)
 ·       Link project card to project-page (Person 2)
 ·       Make contact form component and add to contact page (anyone who has time)
-Second Deliverable (due: Dec 11 11:59pm)
-·       Make firebase (Person 3)
-·       Link firebase to contact component (Person 3)
-·       Set-up email functionality (Person 2)
-·       Finalize welcome page (Person 1)
-·       Finalize portfolio page (Person 1)
-·       Finalize contact and about me pages (Person 1)
+Second Deliverable (due: Dec 12 11:59pm)
+
+    Josiah
+·       Set-up email functionality in contact page (SMTP)
+        Add Icons
+        Repeating background (max-width: 100%;)
+
+    Germaine
+        Make a service for Person's info
+            -make service to get all info (https://github.com/VictorNorman/ionic-quiz-demo)
+            ng g service data
+        Make project component work on click for portfolio cards
+
+    Clare
+        Make Mobile friendly
+·       Finalize page looks
+·       Host on firebase (or firebase?)
+
+
+
