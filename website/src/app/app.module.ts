@@ -17,7 +17,9 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { HeaderComponent } from './components/header/header.component';
-
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,8 @@ import { HeaderComponent } from './components/header/header.component';
     MatIconModule,
     MatInputModule,
     MatFormFieldModule,
-
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
