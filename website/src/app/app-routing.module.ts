@@ -6,14 +6,17 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { ProjInfoPageComponent } from './components/proj-info-page/proj-info-page.component';
 import { ContactPageComponent } from './contact-page/contact-page.component';
 import { PortfolioPageComponent } from './portfolio-page/portfolio-page.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 const routes: Routes = [
- { path: '', redirectTo: 'AppComponent', pathMatch: 'full' },
+  { path: '', redirectTo: 'landing-page', pathMatch: 'full' },
   { path: 'about', component: AboutPageComponent },
   { path: 'contact', component: ContactPageComponent },
   { path: 'portfolio', component: PortfolioPageComponent },
   { path: 'proj-info', component: ProjInfoPageComponent },
   { path: 'contact-form', component: ContactFormComponent },
+  { path: 'landing-page', component: LandingPageComponent },
+
 
   // otherwise redirect to home
   { path: '**', redirectTo: '' },
