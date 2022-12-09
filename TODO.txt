@@ -29,3 +29,7 @@ Second Deliverable (due: Dec 11 11:59pm)
 ·       Finalize welcome page (Person 1)
 ·       Finalize portfolio page (Person 1)
 ·       Finalize contact and about me pages (Person 1)
+
+Ask Professor Norman:
+-icons
+-repeating backgorund on portfolio page

@@ -1,6 +1,10 @@
-<h1 class="header">Projects</h1>
+<div id="sect1" class="container">
 
-<div *ngFor="let portfolioCard of portfolioCardList" class="card">
-  <app-portfolio-card title={{portfolioCard.title}} description={{portfolioCard.description}}
-    image={{portfolioCard.image}} content={{portfolioCard.content}}></app-portfolio-card>
+  <h1 class="header">Projects</h1>
+
+  <div *ngFor="let portfolioCard of portfolioCardList" class="card">
+    <app-portfolio-card title={{portfolioCard.title}} description={{portfolioCard.description}}
+      image={{portfolioCard.image}} content={{portfolioCard.content}}></app-portfolio-card>
+  </div>
+
 </div>
