@@ -22,7 +22,7 @@ export class PortfolioPageComponent implements OnInit {
     {
       title: 'Grace & Adelyn // Studio Recording and Audio Documentary',
       description: 'Two classmates and I produced this project, which includes four songs featuring Grace Lunger and Adelyn Rousch as well as short "behind the scenes" audio documentaries. I worked on all stages of the process, from microphone selection and setup, to field and studio recording, to editing.',
-      image: "https://www.clker.com/cliparts/R/l/l/L/T/2/yellow-square-hi.png",
+      image: "assets/imgs/audioCardCover.jpg",
       content: "https://soundcloud.com/user-110165580/sets/adelyn-grace/s-hTJozYcyvzH?si=734d16e88d514dbcbe7203bb4d9348f6&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     },
     {
