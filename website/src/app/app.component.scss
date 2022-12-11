@@ -1,9 +1,9 @@
 #sect1 {
-    // height: 900px;
-    // width: 1500px;
     height: 100%;
     width: 100%;
+    // max-width: 100%;
     color: #fff;
+
     //image source: https://www.titanui.com/38083-abstract-leaves-lineart-vector/
     background-image: url("../assets/imgs/background2.jpg");
 
@@ -11,6 +11,10 @@
 
 
     // destroy padding/ margins
+
+    // background-image: url("../assets/imgs/greypattern.jpeg");
+    // background-repeat: repeat;
+
 }
 
 #welcome-phrase {

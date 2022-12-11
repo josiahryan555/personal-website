@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "personal-website-922fb": {
+      "hosting": {
+        "website": [
+          "personal-website-922fb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "personal-website-922fb"
+  }
+}
