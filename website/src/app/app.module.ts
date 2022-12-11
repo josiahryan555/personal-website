@@ -17,7 +17,9 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { HeaderComponent } from './components/header/header.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { environment } from '../environments/environment';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
@@ -43,7 +45,9 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     MatIconModule,
     MatInputModule,
     MatFormFieldModule,
-    FontAwesomeModule,
+
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
 
   ],
   providers: [],
