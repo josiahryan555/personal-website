@@ -20,6 +20,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     ProjInfoPageComponent,
     ContactFormComponent,
     HeaderComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,8 +45,10 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     MatIconModule,
     MatInputModule,
     MatFormFieldModule,
+
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

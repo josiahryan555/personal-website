@@ -1,0 +1,13 @@
+protocol smtp plugin - email results to you - mail transfer protocol
+
+proj info /0
+activated route- slides
+
+service to call to get detailed info - move to service and get info
+
+service example-- github com/victornorman/ionic-quiz-demo
+xmas-list
+
+get ith records, or all the records
+
+ng g service data --> dataService.ts

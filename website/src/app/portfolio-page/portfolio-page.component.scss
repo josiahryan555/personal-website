@@ -3,9 +3,19 @@
 }
 
 .header {
-  background-color: lightgrey;
+  background-color: grey;
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 3vw;
   text-align: center;
+}
+
+#sect1 {
+  // height: 100%;
+  // width: 100%;
+  color: #fff;
+  background-image: url("../../assets/imgs/greypattern.jpeg");
+  // background-repeat: repeat;
+  max-width: 100%;
+
 }
