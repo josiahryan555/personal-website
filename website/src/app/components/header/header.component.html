@@ -1,13 +1,15 @@
 <mat-toolbar class="toolbar">
   <span>
-    <a mat-button routerLink="/landing-page">Clare Schellenberg</a>
+    <a class="header" mat-button routerLink="/landing-page">Clare Schellenberg</a>
   </span>
   <span class="space"></span>
-  <a mat-button routerLink="/about">About</a>
-  <a mat-button routerLink="/contact">Contact</a>
-  <a mat-button routerLink="/portfolio">Portfolio</a>
-  <a mat-button routerLink="/proj-info">Project Info Page</a>
+  <a class="header" mat-button routerLink="/about">About</a>
+  <a class="header" mat-button routerLink="/contact">Contact</a>
+  <a class="header" mat-button routerLink="/portfolio">Portfolio</a>
+  <a class="header" mat-button routerLink="/proj-info">Project Info Page</a>
+
 </mat-toolbar>
+
 
 <router-outlet></router-outlet>
 <!-- I THINK THIS IS THE CAUSE OF THE DOUBLE REDNERING PROBLEM  -->

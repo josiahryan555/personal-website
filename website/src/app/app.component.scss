@@ -4,7 +4,12 @@
     height: 100%;
     width: 100%;
     color: #fff;
-    background-image: url("../assets/imgs/greypattern.jpeg");
+    //image source: https://www.titanui.com/38083-abstract-leaves-lineart-vector/
+    background-image: url("../assets/imgs/background2.jpg");
+
+
+
+
     // destroy padding/ margins
 }
 
@@ -16,5 +21,6 @@
     color: black;
     display: flex;
     justify-content: center;
+    font-family: 'Lora', serif;
     font-size: 7vmin;
 }
