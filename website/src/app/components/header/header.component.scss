@@ -2,3 +2,22 @@
   //found how to space toolbar responsively --> https://stackoverflow.com/questions/43200545/create-a-responsive-toolbar-using-angular-material
   flex: 1 1 auto;
 }
+
+* {
+  font-family: 'Lora', serif;
+}
+
+.toolbar {
+  background-color: #F7E5E8;
+  position: sticky;
+  //how to bring toolbar to front using z-index --> https://stackoverflow.com/questions/64564190/bring-toolbar-to-the-front-of-page-in-angular-html
+  z-index: 1;
+  top: 0;
+  box-shadow: 1px 1px 5px lightgray;
+
+}
+
+.header:hover {
+  color: #F7E5E8;
+  background-color: #ffffff;
+}

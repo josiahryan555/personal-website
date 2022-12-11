@@ -1,5 +1,7 @@
 .header {
-  background-color: grey;
+  background-color: white;
+  color: black;
+  font-family: 'Lora', serif;
   padding-top: 50px;
   padding-bottom: 50px;
   font-size: 3vw;
@@ -8,9 +10,10 @@
 
 .description {
   font-size: 5vw;
-  max-width: 40vw;
+  max-width: 30vw;
   line-height: 5vw;
   color: black;
+  font-family: 'Lora', serif;
 }
 
 .container {
@@ -26,9 +29,11 @@
 }
 
 .form {
+  margin-top: 4vh;
   width: 40vw;
-  border: 5px solid lightgray;
+  border: 5px solid rgb(232, 228, 228);
   padding: 2vw;
+  margin-bottom: 4vh;
 }
 
 #message-box {
