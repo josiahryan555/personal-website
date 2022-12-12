@@ -6,11 +6,11 @@ import { Component, OnInit, Input, Output } from '@angular/core';
   styleUrls: ['./portfolio-card.component.scss']
 })
 export class PortfolioCardComponent implements OnInit {
-  @Input() title: string = "";
-  @Input() description: string = "";
+  @Input() cardTitle: string = "";
+  @Input() cardDescription: string = "";
   @Input() subtitle: string = "";
-  @Input() image: string = "";
-  @Input() content: string = "";
+  @Input() cardImage: string = "";
+  @Input() contentLink: string = "";
 
 
   constructor() { }

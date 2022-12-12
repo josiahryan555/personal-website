@@ -1,10 +1,10 @@
 <div id="sect1" class="container">
 
-  <h1 class="header">Projects</h1>
+  <h1 class="header">Recent Projects</h1>
 
   <div *ngFor="let portfolioCard of portfolioCardList" class="card">
-    <app-portfolio-card title={{portfolioCard.title}} description={{portfolioCard.description}}
-      image={{portfolioCard.image}} content={{portfolioCard.content}}></app-portfolio-card>
+    <app-portfolio-card cardTitle={{portfolioCard.cardTitle}} cardDescription={{portfolioCard.cardDescription}}
+      cardImage={{portfolioCard.cardImage}} contentLink={{portfolioCard.contentLink}}></app-portfolio-card>
   </div>
 
 </div>

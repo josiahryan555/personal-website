@@ -1,15 +1,14 @@
 <div class="page">
   <mat-card id="card">
-    <mat-card-title id="title">{{title}}</mat-card-title>
-    <mat-card-subtitle id="description">{{subtitle}}{{description}}</mat-card-subtitle>
+    <mat-card-title id="title">{{cardTitle}}</mat-card-title>
+    <mat-card-subtitle id="description">{{cardDescription}}</mat-card-subtitle>
     <mat-card-content id="image-box">
-      <img mat-card-image src={{image}} id="image">
-      <!-- <img mat-card-image src={{personal-website\website\src\assets\imgs\audioCardCover.jpg}} id="image"> -->
+      <img mat-card-image src={{cardImage}} id="image">
 
     </mat-card-content>
     <mat-card-content>
       <button mat-raised-button id="learn-more-button">Learn More</button>
-      <span> <a href={{content}} target="_blank" class="icon">
+      <span> <a href={{contentLink}} target="_blank" class="icon">
           <mat-icon class="icon">link</mat-icon>
         </a>
       </span>
