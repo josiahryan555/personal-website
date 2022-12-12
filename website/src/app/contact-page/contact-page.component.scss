@@ -27,7 +27,7 @@
 
 .textbox {
   margin-bottom: 15px;
-  width: 95%;
+  width: 100%;
 }
 
 .form {
@@ -51,4 +51,10 @@
 
 .button:hover {
   background-color: #F7E5E8;
+}
+
+.page {
+  background-image: url("../../assets/imgs/background2.jpg");
+  max-width: 100%;
+
 }
