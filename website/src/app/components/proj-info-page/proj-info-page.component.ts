@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-proj-info-page',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./proj-info-page.component.scss']
 })
 export class ProjInfoPageComponent implements OnInit {
+  @Input() detailImg1: string = "";
 
   constructor() { }
 
