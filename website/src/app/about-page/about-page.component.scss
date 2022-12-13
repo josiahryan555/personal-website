@@ -47,7 +47,11 @@
 }
 
 .icon {
-  font-size: 2vw;
+ // font-size: 2vw;
+   // fixed size to account for size of svg files
+  width: 24px;
+  height: 24px;
+  color: black;
 }
 
 .page {
@@ -75,5 +79,6 @@
     padding: 4.5vw;
     font-size: 4vw;
     line-height: 4.5vw;
-  }
+  } 
+
 }

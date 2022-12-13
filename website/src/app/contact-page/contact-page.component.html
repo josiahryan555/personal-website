@@ -3,14 +3,19 @@
   <div class="container">
     <h1 class="description">Leave me a message!</h1>
     <mat-card class="form">
-      <form>
+      <!-- got some code to make email POST work from: https://mailthis.to/#quickstart -->
+      <!-- when submitted, this form will email clare via "mailthis.to". -->
+      <form action="https://mailthis.to/Clareschellenberg11@gmail.com" method="POST">
         <mat-card-title></mat-card-title>
-        <mat-form-field class="textbox"><input matInput placeholder="Your Name" class="textbox"></mat-form-field>
-        <mat-form-field class="textbox"><input matInput placeholder="Your Email" class="textbox"></mat-form-field>
-        <mat-form-field class="textbox"><textarea matInput placeholder="Your Message" class="textbox"
-            id="message-box"></textarea></mat-form-field>
+        <mat-form-field class="textbox"><input matInput placeholder="Your Name" class="textbox" name="name">
+        </mat-form-field>
+        <mat-form-field name="replyto" type="email" class="textbox"><input matInput placeholder="Your Email"
+            class="textbox" name="_replyto">
+        </mat-form-field>
+        <mat-form-field name="message" class="textbox"><textarea matInput placeholder="Your Message" class="textbox"
+            id="message-box" name="message"></textarea></mat-form-field>
         <div>
-          <button class="button" mat-raised-button>Submit Message</button>
+          <button class="button" type="submit" mat-raised-button>Submit Message</button>
         </div>
       </form>
     </mat-card>
