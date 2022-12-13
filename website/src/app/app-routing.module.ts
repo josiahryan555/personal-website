@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'about', component: AboutPageComponent },
   { path: 'contact', component: ContactPageComponent },
   { path: 'portfolio', component: PortfolioPageComponent },
-  { path: 'proj-info', component: ProjInfoPageComponent },
+  { path: 'proj-info/:id', component: ProjInfoPageComponent },
   { path: 'contact-form', component: ContactFormComponent },
   { path: 'landing-page', component: LandingPageComponent },
 

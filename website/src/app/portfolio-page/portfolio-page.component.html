@@ -2,9 +2,10 @@
 
   <h1 class="header">Recent Projects</h1>
 
-  <div *ngFor="let portfolioCard of portfolioCardList" class="card">
+
+  <div *ngFor="let portfolioCard of dataSvc.getPortfolioInfo(); let i = index" class="card">
     <app-portfolio-card cardTitle={{portfolioCard.cardTitle}} cardDescription={{portfolioCard.cardDescription}}
-      cardImage={{portfolioCard.cardImage}} contentLink={{portfolioCard.contentLink}}></app-portfolio-card>
+      cardImage={{portfolioCard.cardImage}} contentLink={{portfolioCard.contentLink}} cardIndex={{i}}></app-portfolio-card>
   </div>
 
 </div>

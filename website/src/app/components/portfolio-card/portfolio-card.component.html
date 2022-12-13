@@ -4,11 +4,12 @@
     <mat-card-subtitle id="description">{{cardDescription}}</mat-card-subtitle>
     <mat-card-content id="image-box">
       <img mat-card-image src={{cardImage}} id="image">
-
     </mat-card-content>
+    
     <mat-card-content id="content">
-      <button mat-raised-button id="learn-more-button">Learn More</button>
-      <span id="icon-content"> <a href={{contentLink}} target="_blank" class="icon">
+      <button mat-raised-button id="learn-more-button" (click)="goToProjInfoPage()">Learn More</button>
+      <span id="icon-content> <a href={{contentLink}} target="_blank" class="icon">
+
           <mat-icon class="icon">link</mat-icon>
         </a>
       </span>
