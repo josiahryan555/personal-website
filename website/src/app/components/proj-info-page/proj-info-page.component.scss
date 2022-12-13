@@ -2,9 +2,9 @@
   background-color: white;
   color: black;
   font-family: 'Lora', serif;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 3.5vw;
   text-align: center;
   margin-bottom: 3%;
 }
@@ -69,4 +69,52 @@
 .page {
   background-image: url("../../../assets/imgs/background2.jpg");
   max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+
+  .container {
+    gap: 1vw;
+  }
+
+  .date {
+    font-size: 5.5vw;
+    padding: 2vw;
+
+  }
+
+  .text {
+    font-size: 4vw;
+    line-height: 4.5vw;
+    padding: 2vw;
+  }
+
+  .header {
+    font-size: 6vw;
+    padding: 4.5vw;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container2 {
+    flex-direction: column;
+    max-width: 60vw;
+  }
+
+  .image {
+    margin: 1vw;
+    max-width: 80vw;
+  }
+
+  .text {
+    max-width: 80vw;
+    margin-top: 1vh;
+  }
+
+  .icon {
+    font-size: 6vw;
+    padding: 2vw;
+  }
 }
