@@ -13,6 +13,12 @@
     //text-shadow: 2px 2px 1.5px lightgray;
 }
 
+.phrase {
+    color: #d1c0c3;
+}
+
+//styling to adapt to mobile devices
+//using media queries --> https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
 @media all and (max-width: 600px) {
     .welcome-phrase {
         margin-top: 20vh;
@@ -25,9 +31,4 @@
         font-size: 15vw;
         padding-bottom: 1vw;
     }
-}
-
-
-.phrase {
-    color: #d1c0c3;
 }

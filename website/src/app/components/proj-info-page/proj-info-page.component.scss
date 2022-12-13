@@ -42,18 +42,15 @@
   max-width: 40vw;
   border-radius: 10px;
   margin-bottom: 6vh;
-
 }
 
 .text {
-
   font-family: 'Lora', serif;
   margin-top: 4vh;
   max-width: 40vw;
   font-size: 1vw;
   line-height: 1.5vw;
   color: black;
-
 }
 
 .date {
@@ -71,6 +68,8 @@
   max-width: 100%;
 }
 
+//styling to adapt to mobile devices
+//using media queries --> https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
 @media all and (max-width: 600px) {
 
   .container {
@@ -80,7 +79,6 @@
   .date {
     font-size: 5.5vw;
     padding: 2vw;
-
   }
 
   .text {
