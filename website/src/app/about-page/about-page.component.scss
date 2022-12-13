@@ -1,14 +1,16 @@
 .header {
   background-color: white;
   color: black;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 3.5vw;
   text-align: center;
   font-family: 'Lora', serif;
   margin-bottom: 3%;
 
 }
+
+
 
 // *********************************************
 // The below were taken from proj-info-page.component.css (and partly modified)
@@ -34,7 +36,7 @@
   padding: 2vw;
   border-radius: 10px;
   box-shadow: 2px 2px 5px lightgray;
-  max-width: 40vw;
+  width: 40vw;
   font-size: 1vw;
   line-height: 1.5vw;
   color: black;
@@ -45,5 +47,38 @@
 }
 
 .icon {
-  font-size: 2vw;
+ // font-size: 2vw;
+   // fixed size to account for size of svg files
+  width: 24px;
+  height: 24px;
+  color: black;
+}
+
+.page {
+  background-image: url("../../assets/imgs/background2.jpg");
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+
+  .header {
+    font-size: 6vw;
+    padding: 4.5vw;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .image {
+    margin-top: 2vw;
+  }
+
+  .text {
+    width: 80vw;
+    padding: 4.5vw;
+    font-size: 4vw;
+    line-height: 4.5vw;
+  } 
+
 }

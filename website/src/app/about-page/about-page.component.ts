@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { mdiGithub } from '@mdi/js';
 
 
 @Component({

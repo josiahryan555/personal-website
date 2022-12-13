@@ -1,6 +1,25 @@
 .space {
   //found how to space toolbar responsively --> https://stackoverflow.com/questions/43200545/create-a-responsive-toolbar-using-angular-material
-  flex: 1 1 auto;
+  flex: 1;
+  max-width: 100%;
+}
+
+// https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
+//https://www.delftstack.com/howto/css/css-change-content/
+@media all and (max-width: 600px) {
+  .home {
+    flex-wrap: wrap;
+  }
+
+  .toolbar {
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .toolbar>a {
+    flex-basis: 100%;
+  }
 }
 
 * {
@@ -14,7 +33,7 @@
   z-index: 1;
   top: 0;
   box-shadow: 1px 1px 5px lightgray;
-
+  display: flex;
 }
 
 .header:hover {

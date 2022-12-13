@@ -7,9 +7,9 @@
   background-color: white;
   color: black;
   font-family: 'Lora', serif;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 3.5vw;
   text-align: center;
   margin-bottom: 3%;
 }
@@ -18,7 +18,17 @@
   // height: 100%;
   // width: 100%;
   color: #fff;
+  // the line of code below helps background range across the variable verticle size of this page.
   background-image: url("../../assets/imgs/background2.jpg");
   max-width: 100%;
   text-align: center;
+}
+
+@media all and (max-width: 600px) {
+
+  .header {
+    font-size: 6vw;
+    padding: 4.5vw;
+  }
+
 }

@@ -2,9 +2,9 @@
   background-color: white;
   color: black;
   font-family: 'Lora', serif;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+  font-size: 3.5vw;
   text-align: center;
   margin-bottom: 3%;
 
@@ -33,7 +33,7 @@
 .form {
   font-family: 'Lora', serif;
   width: 35vw;
-  border: 5px solid rgb(232, 228, 228);
+  // border: 5px solid rgb(232, 228, 228);
   padding: 2vw;
   margin-bottom: 4vh;
 }
@@ -56,5 +56,44 @@
 .page {
   background-image: url("../../assets/imgs/background2.jpg");
   max-width: 100%;
+
+}
+
+@media all and (max-width: 600px) {
+
+  .description {
+    margin-top: 6vw;
+    margin-bottom: 4vw;
+    max-width: 80vw;
+    font-size: 8vw;
+  }
+
+  .header {
+    font-size: 6vw;
+    padding: 4.5vw;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .form {
+    margin-top: 4vw;
+    width: 80vw;
+
+  }
+
+  #message-box {
+    width: 80vw;
+  }
+
+  .button {
+    align-items: center;
+    font-size: 2.5vw;
+  }
+
+  .textbox {
+    font-size: 2.5vw;
+  }
 
 }
