@@ -7,7 +7,6 @@
 }
 
 #card {
-
   // border: 5px solid rgb(232, 228, 228);
   display: grid;
   min-width: 150px;
@@ -18,7 +17,7 @@
   gap: 1vw;
   margin-left: 2.3vw;
   margin-bottom: 1vw;
-  //border-radius: 5px;
+  border-radius: 5px;
 }
 
 #image-box {
@@ -79,6 +78,8 @@
   //color: white;
 }
 
+//styling to adapt to mobile devices
+//using media queries --> https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
 @media all and (max-width: 600px) {
 
   .icon {
@@ -87,19 +88,16 @@
   }
 
   #icon-content {
-
     grid-row-start: 6;
     grid-row-end: 7;
     display: grid;
     justify-content: center;
-
   }
 
   #card {
     width: 80vw;
     justify-content: center;
     align-content: center;
-
   }
 
   #content {
@@ -110,8 +108,6 @@
     display: grid;
     justify-content: center;
   }
-
-
 
   #image-box {
     width: 80vw;
@@ -137,12 +133,9 @@
     grid-column-end: 1;
     display: grid;
     text-align: center;
-
-
   }
 
   #learn-more-button {
-
     font-size: 4vw;
     margin-bottom: 4vw;
     grid-row-start: 4;
@@ -150,7 +143,6 @@
     grid-column-start: 1;
     grid-column-end: 1;
     margin-right: 0;
-
   }
 
   #title {
@@ -162,9 +154,7 @@
     grid-row-start: 2;
     grid-row-end: 3;
     max-width: 80vw;
-    // margin-right: 0;
     display: grid;
     text-align: center;
-
   }
 }

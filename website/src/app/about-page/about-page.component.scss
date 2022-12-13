@@ -7,10 +7,7 @@
   text-align: center;
   font-family: 'Lora', serif;
   margin-bottom: 3%;
-
 }
-
-
 
 // *********************************************
 // The below were taken from proj-info-page.component.css (and partly modified)
@@ -47,8 +44,8 @@
 }
 
 .icon {
- // font-size: 2vw;
-   // fixed size to account for size of svg files
+  // font-size: 2vw;
+  // fixed size to account for size of svg files
   width: 24px;
   height: 24px;
   color: black;
@@ -59,6 +56,8 @@
   max-width: 100%;
 }
 
+//styling to adapt to mobile devices
+//using media queries --> https://www.freecodecamp.org/news/how-to-create-a-fully-responsive-navbar-with-flexbox-a4435d175dd3/
 @media all and (max-width: 600px) {
 
   .header {
@@ -79,6 +78,5 @@
     padding: 4.5vw;
     font-size: 4vw;
     line-height: 4.5vw;
-  } 
-
+  }
 }
