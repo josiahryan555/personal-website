@@ -1,4 +1,4 @@
-# personal-website
+# Personal Website
 
 This is a personal website made for a CS336 Web Development class in 2022 by Clare Schellenberg, Germaine Hounakey, and Josiah Ryan.
 
